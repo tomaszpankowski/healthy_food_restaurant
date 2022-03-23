@@ -7,12 +7,12 @@ import Button from "../../node_modules/react-bootstrap/Button";
 class AboutS3 extends Component{
     render(){
         return(    
-            <Container fluid className="about-s3 d-flex minh-50vh align-items-center py-5 border-top border-secondary pt-5">
+            <Container fluid className="about-s3 d-flex minh-50vh align-items-center py-5 border-top border-dark pt-5">
             <Row className="mx-0 w-100 mt-5">
                 <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh d-none d-md-block"></Col>
                 <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
                     <div className="w-100 text-center text-md-start text-shadow">
-                        <h2 className="dispaly-6 fw-bold text-white-50">
+                        <h2 className="dispaly-6 fw-bold text-dark-50">
                             Unde omnis iste
                         </h2>
                         <p className="text-white">
