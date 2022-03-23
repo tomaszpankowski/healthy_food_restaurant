@@ -1,1 +1,83 @@
 @include aoa-bg-series($bg__init,$classes_init);
+
+.menu,.services{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+
+.reservation{
+    &-s2,&-s4{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+
+nav{
+    z-index: 10;
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .about{
+        &-s1,&-s2,&-s3{
+            *{
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .contact,.delivery,.index,.menu,.services{
+        &-s1{
+            *{
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .delivery{
+        &-s1{
+            background-position: top right!important;
+        }
+    }
+    .reservation{
+        &-s1,&-s3{
+            *{
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+        &-s1{
+            background-position: top right!important;
+        }
+    }
+    .navbar{
+        &-nav{
+            *{
+                &:hover{
+                    opacity: 0.8
+                }
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+}
