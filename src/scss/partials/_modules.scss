@@ -1,4 +1,17 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation:portrait){
+    .about,.reservation{
+        &-s1,&-s2,&-s3{
+            background-position-x: center!important;
+        }
+    }
+    .contact,.delivery,.index,.menu,.services{
+        &-s1{
+            background-position-x: center!important;
+        }
+    }
+}
+
 
 .menu,.services{
     &-s3{
@@ -19,7 +32,14 @@
         text-shadow: $text__shadow;
     }
 }
-
+footer{
+    .bg-dark{background-color: olive!important;}
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    color: rgb(204, 204, 26);
+    font-family: "Courgette";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }

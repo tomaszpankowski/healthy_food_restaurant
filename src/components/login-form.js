@@ -63,7 +63,7 @@ class LoginForm extends Component{
             <Container fluid className={"login-s1 align-items-center p-0 py-5 d-flex minh-100vh "+this.props.classExt}>
                 <Row className="mx-auto text-start w-100 pt-5">
                     <Col xs={11} md={5} lg={4} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-start w-100 bg-dark opacity-9 border border-secondary p-4 rounded shadow text-secondary fw-bold"
+                        <Form className="text-start w-100 bg-white border border-secondary p-4 rounded shadow text-secondary fw-bold"
                             autoComplete="off"
                             method="POST">
                             <div className="border-bottom border-secondary mb-4">
@@ -103,12 +103,12 @@ class LoginForm extends Component{
                             </div>
                             <div className="w-100 text-end py-2 border-top border-secondary">
                                 <Button 
-                                    variant="outline-light" 
+                                    variant="outline-secondary" 
                                     type="reset" 
                                     className="mx-1 rounded-pill ">
                                     Clear
                                 </Button>
-                                <Button variant="outline-light" 
+                                <Button variant="outline-secondary" 
                                     className="mx-1 rounded-pill"
                                     onClick={this.sendForm.bind(this)}>
                                     Login
