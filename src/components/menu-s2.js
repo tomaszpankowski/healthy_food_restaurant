@@ -11,7 +11,7 @@ class MenuS2 extends Component{
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={7} className="mx-auto minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center">
-                            <h2 className="dispaly-6 fw-bold text-dark">
+                            <h2 className="dispaly-6 fw-bold">
                                 Lorem ipsum
                             </h2>
                             <p className="text-muted">
